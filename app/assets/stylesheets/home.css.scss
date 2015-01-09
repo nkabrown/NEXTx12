@@ -1,0 +1,109 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headline-box {
+  margin-top: 2em;
+  margin-left: 2em;
+
+  h1 {
+    width: 100%;
+    color: #3154AC;
+    margin: 0;
+    font-family: "karlaregular", sans-serif;
+    font-size: 3.5em;
+  }
+}
+
+.grid {
+
+  width: 100%;
+  display: inline-block;
+  margin-top: 2em;
+
+  p {
+    padding: 0 35px;
+    font-size: 1.4em;
+    font-family: "karlaregular", sans-serif;
+    line-height: 1.25;
+  }
+
+  .col-one {
+    width: 30%;
+    height: 400px;
+    margin: 2em .75em;
+    float: left;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #444;
+
+    .mtg-info {
+      margin-top: 3em;
+
+      p {
+        font-size: 1.6em;
+      }
+    }
+  }
+
+  .col-two {
+    width: 30%;
+    height: 400px;
+    margin: 2em 1em;
+    float: left;
+    background-color: #3154AC;
+    border: 5px solid #3154AC;
+    color: #FFF;
+    text-align: center;
+
+    .byline {
+      margin-top: 2em;
+      font-weight: 700;
+      font-size: 1.6em;
+      text-align: center;
+    }
+  }
+
+  .col-three {
+    width: 30%;
+    height: 400px;
+    margin: 2em .75em;
+    float: left;
+    border: 5px solid #444;
+    text-align: center;
+
+    h2 {
+      margin-top: 2em;
+      font-family: "karlaregular", sans-serif;
+    }
+
+    .talk {
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width : 1150px) {
+  .grid {
+    display: block;
+
+    .col-one {
+      width: 90%;
+      height: 100%;
+      clear: both;
+      text-align: center;
+    }
+
+    .col-two {
+      width: 90%;
+      height: 100%;
+      clear: both;
+    }
+
+    .col-three {
+      width: 90%;
+      height: 100%;
+      clear: both;
+    }
+  }
+}
