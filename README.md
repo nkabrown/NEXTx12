@@ -1,10 +1,6 @@
-NEXTx12
-=======
+NEXTx12 — NYCDA alumni meetup
+==============================
 
-NYCDA alumni meetup
+First MTG: Coming Soon
 
-* * *
-
-January MTG: Coming Soon
-
-**DATE, TIME, LOCATION** to be determined
+**DATE, TIME, LOCATION**: TBA
