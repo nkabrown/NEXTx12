@@ -13,15 +13,42 @@
 }
 
 .headline-box {
+  display: inline-block;
   margin-top: 2em;
   margin-left: 2em;
 
   h1 {
-    width: 100%;
     color: #3154AC;
     margin: 0;
     font-family: "karlaregular", sans-serif;
     font-size: 3.5em;
+    float: left;
+  }
+
+  h2 {
+    font-family: "karlaregular", sans-serif;
+    font-size: 2em;
+    color: #444;
+    border: 2px solid #444;
+    border-radius: 2.5px;
+    padding: 0.2em;
+    float: left;
+
+  }
+
+  .rsvp-link {
+    position: absolute;
+    top: 1.2em;
+    right: 10em;
+
+    a {
+      text-decoration: none;
+      color: #444;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -118,5 +145,29 @@
 
   .banner {
     clear: both;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .headline-box {
+    display: block;
+    margin-left: 4.8em;
+
+    h1 {
+      width: 100%;
+      height: 100%;
+      right: -50px;
+    }
+
+    h2 {
+      height: 100%;
+      clear: both;
+    }
+
+    .rsvp-link {
+      position: relative;
+      top: 0;
+      right: -50px;
+    }
   }
 }
